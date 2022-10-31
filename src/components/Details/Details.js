@@ -35,7 +35,7 @@ function Details() {
                 <div className="item_info">
                   <div className="nft-image-wrapper">
                     <img
-                      src="../images/items/big-4.jpg"
+                      src="../../images/items/big-4.jpg"
                       className="image-autosize img-fluid img-rounded mb-sm-30"
                       alt=""
                     />
@@ -106,7 +106,7 @@ function Details() {
                                 <a href="/">
                                   <img
                                     className="lazy"
-                                    src="../images/author/author-10.jpg"
+                                    src="../../images/author/author-10.jpg"
                                     alt=""
                                   />
                                   <i className="fa fa-check"></i>
@@ -236,7 +236,7 @@ function Details() {
                           <div className="de_tab tab_simple">
                             <h6>Price</h6>
                             <div className="nft-item-price">
-                              <img src="../images/misc/ethereum.svg" alt="" />
+                              <img src="../../images/misc/ethereum.svg" alt="" />
                               <span>0.059</span>($253.67)
                             </div>
                             <a
@@ -294,7 +294,7 @@ function Details() {
                                 <a href="/">
                                   <img
                                     className="lazy"
-                                    src="../images/author/author-1.jpg"
+                                    src="../../images/author/author-1.jpg"
                                     alt=""
                                   />
                                   <i className="fa fa-check"></i>
@@ -312,7 +312,7 @@ function Details() {
                                 <a href="/">
                                   <img
                                     className="lazy"
-                                    src="../images/author/author-2.jpg"
+                                    src="../../images/author/author-2.jpg"
                                     alt=""
                                   />
                                   <i className="fa fa-check"></i>
@@ -330,7 +330,7 @@ function Details() {
                                 <a href="/">
                                   <img
                                     className="lazy"
-                                    src="../images/author/author-3.jpg"
+                                    src="../../images/author/author-3.jpg"
                                     alt=""
                                   />
                                   <i className="fa fa-check"></i>
@@ -349,7 +349,7 @@ function Details() {
                                 <a href="/">
                                   <img
                                     className="lazy"
-                                    src="../images/author/author-4.jpg"
+                                    src="../../images/author/author-4.jpg"
                                     alt=""
                                   />
                                   <i className="fa fa-check"></i>
@@ -395,7 +395,7 @@ function Details() {
                                 <a href="/">
                                   <img
                                     className="lazy"
-                                    src="../images/author/author-5.jpg"
+                                    src="../../images/author/author-5.jpg"
                                     alt=""
                                   />
                                   <i className="fa fa-check"></i>
@@ -413,7 +413,7 @@ function Details() {
                                 <a href="/">
                                   <img
                                     className="lazy"
-                                    src="../images/author/author-1.jpg"
+                                    src="../../images/author/author-1.jpg"
                                     alt=""
                                   />
                                   <i className="fa fa-check"></i>
@@ -431,7 +431,7 @@ function Details() {
                                 <a href="/">
                                   <img
                                     className="lazy"
-                                    src="../images/author/author-2.jpg"
+                                    src="../../images/author/author-2.jpg"
                                     alt=""
                                   />
                                   <i className="fa fa-check"></i>
@@ -449,7 +449,7 @@ function Details() {
                                 <a href="/">
                                   <img
                                     className="lazy"
-                                    src="../images/author/author-3.jpg"
+                                    src="../../images/author/author-3.jpg"
                                     alt=""
                                   />
                                   <i className="fa fa-check"></i>
@@ -468,7 +468,7 @@ function Details() {
                                 <a href="/">
                                   <img
                                     className="lazy"
-                                    src="../images/author/author-4.jpg"
+                                    src="../../images/author/author-4.jpg"
                                     alt=""
                                   />
                                   <i className="fa fa-check"></i>

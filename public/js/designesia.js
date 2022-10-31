@@ -2188,36 +2188,36 @@
     // --------------------------------------------------
     // navigation for mobile
     // --------------------------------------------------
-    jQuery("#menu-btn").on("click", function () {
-      $("#de-submenu-profile").removeClass("open");
-      $("#de-submenu-profile").hide();
-      $("#de-click-menu-profile").data("iteration", 1);
-      $("#de-submenu-notification").removeClass("open");
-      $("#de-submenu-notification").hide();
-      $("#de-click-menu-notification").data("iteration", 1);
+    // jQuery("#menu-btn").on("click", function () {
+    //   $("#de-submenu-profile").removeClass("open");
+    //   $("#de-submenu-profile").hide();
+    //   $("#de-click-menu-profile").data("iteration", 1);
+    //   $("#de-submenu-notification").removeClass("open");
+    //   $("#de-submenu-notification").hide();
+    //   $("#de-click-menu-notification").data("iteration", 1);
 
-      var h = jQuery("header")[0].scrollHeight;
+    //   var h = jQuery("header")[0].scrollHeight;
 
-      if (mobile_menu_show == 0) {
-        jQuery("header.header-mobile").stop(true).animate(
-          {
-            height: h,
-          },
-          200,
-          "easeOutCubic"
-        );
-        mobile_menu_show = 1;
-      } else {
-        jQuery("header.header-mobile").stop(true).animate(
-          {
-            height: $tmp_h,
-          },
-          200,
-          "easeOutCubic"
-        );
-        mobile_menu_show = 0;
-      }
-    });
+    //   if (mobile_menu_show == 0) {
+    //     jQuery("header.header-mobile").stop(true).animate(
+    //       {
+    //         height: h,
+    //       },
+    //       200,
+    //       "easeOutCubic"
+    //     );
+    //     mobile_menu_show = 1;
+    //   } else {
+    //     jQuery("header.header-mobile").stop(true).animate(
+    //       {
+    //         height: $tmp_h,
+    //       },
+    //       200,
+    //       "easeOutCubic"
+    //     );
+    //     mobile_menu_show = 0;
+    //   }
+    // });
     jQuery("a.btn").on("click", function (evn) {
       if (this.href.indexOf("#") != -1) {
         evn.preventDefault();
