@@ -41,7 +41,7 @@ function Modal() {
                 name="bid_qty"
                 id="bid_qty"
                 className="form-control"
-                value="1"
+                defaultValue={1}
               />
               <div className="spacer-single"></div>
               <div className="de-flex">

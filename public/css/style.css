@@ -13556,13 +13556,22 @@ a.read_more i {
   right: 5px;
 }
 
-.author_list:not(.alt-1) {
-  -moz-column-count: 2;
+.author_list {
+  /* -moz-column-count: 2;
   -moz-column-gap: 20px;
   -webkit-column-count: 2;
   -webkit-column-gap: 20px;
   column-count: 2;
-  column-gap: 20px;
+  column-gap: 20px; */
+  display: flex;
+  flex-direction: column;
+}
+.roww {
+  /* border: 1px solid; */
+  justify-content: space-around;
+  display: flex;
+  margin-left: -80px;
+  flex-wrap: wrap;
 }
 
 .author_list.d-col-3:not(.alt-1) {
@@ -17145,12 +17154,13 @@ img {
   }
 
   .author_list:not(.alt-1) {
-    -moz-column-count: 2;
+    /* -moz-column-count: 2;
     -moz-column-gap: 20px;
     -webkit-column-count: 2;
     -webkit-column-gap: 20px;
     column-count: 2;
-    column-gap: 20px;
+    column-gap: 20px; */
+    display: flex !important;
   }
 
   .nft__item_lg h2 {

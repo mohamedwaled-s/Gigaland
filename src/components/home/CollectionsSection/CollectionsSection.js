@@ -235,139 +235,149 @@ function CollectionsSection() {
           <div className="col-md-6 ">
             <h2>New Auctions</h2>
             <ol className="author_list">
-              <li>
-                <div className="author_list_pp">
-                  <a href="/">
-                    <img
-                      className="lazy"
-                      src="images/author/author-1.jpg"
-                      alt=""
-                    />
-                    <i className="fa fa-check"></i>
-                  </a>
-                </div>
-                <div className="author_list_info">
-                  <a href="/">Monica Lucas</a>
-                  <span>3.2 ETH</span>
-                </div>
-              </li>
-              <li>
-                <div className="author_list_pp">
-                  <a href="/">
-                    <img
-                      className="lazy"
-                      src="images/author/author-2.jpg"
-                      alt=""
-                    />
-                    <i className="fa fa-check"></i>
-                  </a>
-                </div>
-                <div className="author_list_info">
-                  <a href="/">Mamie Barnett</a>
-                  <span>2.8 ETH</span>
-                </div>
-              </li>
-              <li>
-                <div className="author_list_pp">
-                  <a href="/">
-                    <img
-                      className="lazy"
-                      src="images/author/author-3.jpg"
-                      alt=""
-                    />
-                    <i className="fa fa-check"></i>
-                  </a>
-                </div>
-                <div className="author_list_info">
-                  <a href="/">Nicholas Daniels</a>
-                  <span>2.5 ETH</span>
-                </div>
-              </li>
-              <li>
-                <div className="author_list_pp">
-                  <a href="/">
-                    <img
-                      className="lazy"
-                      src="images/author/author-4.jpg"
-                      alt=""
-                    />
-                    <i className="fa fa-check"></i>
-                  </a>
-                </div>
-                <div className="author_list_info">
-                  <a href="/">Lori Hart</a>
-                  <span>2.2 ETH</span>
-                </div>
-              </li>
+              <div className="roww">
+                {" "}
+                <li>
+                  <div className="author_list_pp">
+                    <a href="/">
+                      <img
+                        className="lazy"
+                        src="images/author/author-1.jpg"
+                        alt=""
+                      />
+                      <i className="fa fa-check"></i>
+                    </a>
+                  </div>
+                  <div className="author_list_info">
+                    <a href="/">Monica Lucas</a>
+                    <span>3.2 ETH</span>
+                  </div>
+                </li>
+                <li>
+                  <div className="author_list_pp">
+                    <a href="/">
+                      <img
+                        className="lazy"
+                        src="images/author/author-2.jpg"
+                        alt=""
+                      />
+                      <i className="fa fa-check"></i>
+                    </a>
+                  </div>
+                  <div className="author_list_info">
+                    <a href="/">Mamie Barnett</a>
+                    <span>2.8 ETH</span>
+                  </div>
+                </li>
+              </div>
+              <div className="roww">
+                {" "}
+                <li>
+                  <div className="author_list_pp">
+                    <a href="/">
+                      <img
+                        className="lazy"
+                        src="images/author/author-3.jpg"
+                        alt=""
+                      />
+                      <i className="fa fa-check"></i>
+                    </a>
+                  </div>
+                  <div className="author_list_info">
+                    <a href="/">Monica Lucas</a>
+                    <span>2.5 ETH</span>
+                  </div>
+                </li>
+                <li>
+                  <div className="author_list_pp">
+                    <a href="/">
+                      <img
+                        className="lazy"
+                        src="images/author/author-4.jpg"
+                        alt=""
+                      />
+                      <i className="fa fa-check"></i>
+                    </a>
+                  </div>
+                  <div className="author_list_info">
+                    <a href="/">Mamie Barnett</a>
+                    <span>2.2 ETH</span>
+                  </div>
+                </li>
+              </div>
             </ol>
           </div>
           <div className="col-md-6 ">
             <h2>Reacently Sold</h2>
             <ol className="author_list">
-              <li>
-                <div className="author_list_pp">
-                  <a href="/">
-                    <img
-                      className="lazy"
-                      src="images/author/author-5.jpg"
-                      alt=""
-                    />
-                    <i className="fa fa-check"></i>
-                  </a>
-                </div>
-                <div className="author_list_info">
-                  <a href="/">Jimmy Wright</a>
-                  <span>1.9 ETH</span>
-                </div>
-              </li>
-              <li>
-                <div className="author_list_pp">
-                  <a href="/">
-                    <img
-                      className="lazy"
-                      src="images/author/author-6.jpg"
-                      alt=""
-                    />
-                    <i className="fa fa-check"></i>
-                  </a>
-                </div>
-                <div className="author_list_info">
-                  <a href="/">Karla Sharp</a>
-                  <span>1.6 ETH</span>
-                </div>
-              </li>
-              <li>
-                <div className="author_list_pp">
-                  <a href="/">
-                    <img
-                      className="lazy"
-                      src="images/author/author-7.jpg"
-                      alt=""
-                    />
-                    <i className="fa fa-check"></i>
-                  </a>
-                </div>
-                <div className="author_list_info">
-                  <a href="/">Gayle Hicks</a>
-                  <span>1.5 ETH</span>
-                </div>
-              </li>
-              <li>
-                <div className="author_list_pp">
-                  <a href="/">
-                    <img
-                      className="lazy"
-                      src="images/author/author-12.jpg"
-                      alt=""
-                    />
-                    <i className="fa fa-check"></i>
-                  </a>
-                </div>
-                <div className="author_list_info">
-                  <a href="/">Fred Ryan</a>
-                  <span>0.5 eth</span>
-                </div>
-              </li>
+              <div className="roww">
+                <li>
+                  <div className="author_list_pp">
+                    <a href="/">
+                      <img
+                        className="lazy"
+                        src="images/author/author-5.jpg"
+                        alt=""
+                      />
+                      <i className="fa fa-check"></i>
+                    </a>
+                  </div>
+                  <div className="author_list_info">
+                    <a href="/">Jimmy Wright</a>
+                    <span>1.9 ETH</span>
+                  </div>
+                </li>
+                <li>
+                  <div className="author_list_pp">
+                    <a href="/">
+                      <img
+                        className="lazy"
+                        src="images/author/author-6.jpg"
+                        alt=""
+                      />
+                      <i className="fa fa-check"></i>
+                    </a>
+                  </div>
+                  <div className="author_list_info">
+                    <a href="/">Karla Sharp</a>
+                    <span>1.6 ETH</span>
+                  </div>
+                </li>
+              </div>
+              <div className="roww">
+                <li>
+                  <div className="author_list_pp">
+                    <a href="/">
+                      <img
+                        className="lazy"
+                        src="images/author/author-7.jpg"
+                        alt=""
+                      />
+                      <i className="fa fa-check"></i>
+                    </a>
+                  </div>
+                  <div className="author_list_info">
+                    <a href="/">Gayle Hicks</a>
+                    <span>1.5 ETH</span>
+                  </div>
+                </li>
+                <li>
+                  <div className="author_list_pp">
+                    <a href="/">
+                      <img
+                        className="lazy"
+                        src="images/author/author-12.jpg"
+                        alt=""
+                      />
+                      <i className="fa fa-check"></i>
+                    </a>
+                  </div>
+                  <div className="author_list_info">
+                    <a href="/">Fred Ryan</a>
+                    <span>0.5 eth</span>
+                  </div>
+                </li>
+              </div>
             </ol>
           </div>
         </div>
